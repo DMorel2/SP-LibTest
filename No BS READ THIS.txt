@@ -3,8 +3,8 @@
 3- once you have an asset ready to upload, do your file clean up and save a copy of the scene into cloned repository^
 4- turn your target into an asset and add it to a catalog (4:12 into vid 2)
 5- make sure each asset has a proper thumbnail (only meshes get one by default) and save (7:03 vid 2 or hit dropdown arrow n capture screenshot)
-6- your asset folder should now show the scene (.blend), backup (.blend1) and asset list (.txt)
-7- 10:21 into vid 3 explains how to pull asset info into repository by running CMD prompt and using text between the ////'s below
+6- your asset folder should now show the scene (.blend), backup(.blend1) and asset list(.txt) along with git files(.nojekyll)
+7- 10:21 into vid 3 explains how to pull blender asset info into the git repository by running CMD prompt and using text between the ////'s below
 8- Verify your pathing first! if you installed blender or put your asset folder on a different drive this won't work as is
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
