@@ -1,0 +1,72 @@
+{
+  "asset_count": 3,
+  "file_count": 1,
+  "assets": [
+    {
+      "name": "Collection",
+      "id_type": "COLLECTION",
+      "files": [
+        "gilSolo_TestingEEVEE.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "gilSolo_TestingEEVEE_thumbnails/Collection/collection.webp",
+        "hash": "SHA256:adece44790acf10c6ec32f70591775a9cd716bd0f41389169506e34394e5a8ee"
+      },
+      "meta": {
+        "catalog_id": "6517c8c6-7c81-47a4-af3d-a3b048f6ad3f"
+      }
+    },
+    {
+      "name": "M_gilpants.combo",
+      "id_type": "MATERIAL",
+      "files": [
+        "gilSolo_TestingEEVEE.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "gilSolo_TestingEEVEE_thumbnails/Material/m_gilpantscombo.webp",
+        "hash": "SHA256:7d8ed9af02be47541200124fe4368a6a6026ced502c5d83bd00b830aab611373"
+      },
+      "meta": {
+        "catalog_id": "6517c8c6-7c81-47a4-af3d-a3b048f6ad3f"
+      }
+    },
+    {
+      "name": "GRP_ComboHatch_hard",
+      "id_type": "NODETREE",
+      "files": [
+        "gilSolo_TestingEEVEE.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "gilSolo_TestingEEVEE_thumbnails/Nodetree/grp_combohatch_hard.webp",
+        "hash": "SHA256:7ee47086a1ae230a6f863ca511a3e30eb8777d7da1f9a71d4bca346de30e1935"
+      },
+      "meta": {
+        "catalog_id": "6517c8c6-7c81-47a4-af3d-a3b048f6ad3f",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "gilSolo_TestingEEVEE.blend",
+      "size_in_bytes": 24812880,
+      "hash": "SHA256:0a4a53a8aa84ddafc63e42efffae18651dd00e69444a4f5b627fd8d5985ddaf2",
+      "blender_version": "5.2.44"
+    }
+  ]
+}

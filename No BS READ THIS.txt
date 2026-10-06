@@ -1,16 +1,24 @@
 1- make a local library assets folder and NEVER move it or you will break things
-2- once you have an asset ready to upload do your file clean up and save a copy of the scene into ^
-3- turn your target into an asset and add it to a catalog (4:12 into vid 2)
-4- make sure each asset has a proper thumbnail (7:03 vid 2 or hit dropdown arrow n capture screenshot) only geo gets one by default but they won't work without one
-5- your asset folder should now show the scene (.blend), backup (.blend1) and asset list (.txt)
-6- setup your online library (vid 3) and clone your repository into asset folder from before 
+2- setup your online library (vid 3) and clone your repository into asset folder 
+3- once you have an asset ready to upload, do your file clean up and save a copy of the scene into cloned repository^
+4- turn your target into an asset and add it to a catalog (4:12 into vid 2)
+5- make sure each asset has a proper thumbnail (only meshes get one by default) and save (7:03 vid 2 or hit dropdown arrow n capture screenshot)
+6- your asset folder should now show the scene (.blend), backup (.blend1) and asset list (.txt)
+7- 10:21 into vid 3 explains how to pull asset info into repository by running CMD prompt and using text between the ////'s below
+8- Verify your pathing first! if you installed blender or put your asset folder on a different drive this won't work as is
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-"C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" -b -c asset_listing generate -- "C:\Path\To\Your\AssetFolder"
+"C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" -c asset_listing generate "C:\path\to\your\folder"
 
-once your asset library is completed, copy and past above text into command prompt-> verify file paths-> hit enter
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-asset folder should now have a JSON file along with rest. drop all of the files into host server
+9- hit enter
+10- asset folder should now have a JSON file along with everything else you need. drop all of the files into your library on github app (around 14min mark of vid 3) and commit to main
+11- next hit push to origin so it populates online
+12- double check that it did on github website and follow vid 3 from 17:03 to get link setup
+
+- default link for me is: https://dmorel2.github.io/SP-LibTest/
 
 vid 1 - asset library intro
 https://www.youtube.com/watch?v=o8sWu8dJHHU
