@@ -13,12 +13,20 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-9- hit enter
+9- hit enter and don't close CMD prompt yet
 10- asset folder should now have a JSON file along with everything else you need. drop all of the files into your library on github app (around 14min mark of vid 3) and commit to main
 11- next hit push to origin so it populates online
 12- double check that it did on github website and follow vid 3 from 17:03 to get link setup
 
 - default link for me is: https://dmorel2.github.io/SP-LibTest/
+
+13-add link into blender like he does in the vid and all should be gtg. continue following the vid to setup your update method using the bat file. TLDR is you repeat the last bit with 'echo' in front and '>my_library.bat' at the end and hit enter to make the file in your folder and double click it open anytime you have updates. should automatically pull updates and then you update n push on git
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+echo "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" -c asset_listing generate "C:\path\to\your\folder" >my_library.bat
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 vid 1 - asset library intro
 https://www.youtube.com/watch?v=o8sWu8dJHHU
