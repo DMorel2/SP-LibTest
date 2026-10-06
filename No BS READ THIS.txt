@@ -1,0 +1,22 @@
+1- make a local library assets folder and NEVER move it or you will break things
+2- once you have an asset ready to upload do your file clean up and save a copy of the scene into ^
+3- turn your target into an asset and add it to a catalog (4:12 into vid 2)
+4- make sure each asset has a proper thumbnail (7:03 vid 2 or hit dropdown arrow n capture screenshot) only geo gets one by default but they won't work without one
+5- your asset folder should now show the scene (.blend), backup (.blend1) and asset list (.txt)
+6- setup your online library (vid 3) and clone your repository into asset folder from before 
+
+
+"C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" -b -c asset_listing generate -- "C:\Path\To\Your\AssetFolder"
+
+once your asset library is completed, copy and past above text into command prompt-> verify file paths-> hit enter
+
+asset folder should now have a JSON file along with rest. drop all of the files into host server
+
+vid 1 - asset library intro
+https://www.youtube.com/watch?v=o8sWu8dJHHU
+
+vid 2 - asset library detailed walkthru
+https://www.youtube.com/watch?v=jpz13q52YWM
+
+vid 3 - follow this vid to setup your own github server and for more asset library info
+https://youtu.be/n76BApmMwR8?si=Eg-qZmuhZq8VdFZ4
