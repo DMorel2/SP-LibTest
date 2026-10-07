@@ -72,6 +72,9 @@
       "thumbnail": {
         "url": "lightPath_Testing_thumbnails/Collection/lightpathtesting.webp",
         "hash": "SHA256:55c125d08301e16b5a8859768007e779a2bbdd94b319c782e17c0d1e7c86d3e9"
+      },
+      "meta": {
+        "catalog_id": "6517c8c6-7c81-47a4-af3d-a3b048f6ad3f"
       }
     }
   ],
@@ -84,8 +87,8 @@
     },
     {
       "path": "lightPath_Testing.blend",
-      "size_in_bytes": 9303259,
-      "hash": "SHA256:1e86fc9a1fe202c98796ece65c626e6f16c5c95d4e7f933c0a6f14d98bd6bcac",
+      "size_in_bytes": 9303323,
+      "hash": "SHA256:3a3d9e3cf7b773abc6b2b9a433c6a8723121bcaee7008b6814551f14028b3b27",
       "blender_version": "5.2.44"
     }
   ]
