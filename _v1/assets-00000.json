@@ -1,6 +1,6 @@
 {
-  "asset_count": 3,
-  "file_count": 1,
+  "asset_count": 4,
+  "file_count": 2,
   "assets": [
     {
       "name": "Collection",
@@ -59,6 +59,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "lightpathTesting",
+      "id_type": "COLLECTION",
+      "files": [
+        "lightPath_Testing.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "lightPath_Testing_thumbnails/Collection/lightpathtesting.webp",
+        "hash": "SHA256:55c125d08301e16b5a8859768007e779a2bbdd94b319c782e17c0d1e7c86d3e9"
+      }
     }
   ],
   "files": [
@@ -66,6 +80,12 @@
       "path": "gilSolo_TestingEEVEE.blend",
       "size_in_bytes": 24812880,
       "hash": "SHA256:0a4a53a8aa84ddafc63e42efffae18651dd00e69444a4f5b627fd8d5985ddaf2",
+      "blender_version": "5.2.44"
+    },
+    {
+      "path": "lightPath_Testing.blend",
+      "size_in_bytes": 9303259,
+      "hash": "SHA256:1e86fc9a1fe202c98796ece65c626e6f16c5c95d4e7f933c0a6f14d98bd6bcac",
       "blender_version": "5.2.44"
     }
   ]
